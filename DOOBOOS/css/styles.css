@@ -192,8 +192,8 @@ p{
   margin-top: 120px;
   margin-bottom: 120px;
 }
-@media (max-width: 768px) {
-  /* Adjust the image sizes for smaller screens */
+@media (max-width: 992px) {
+  /* Adjust the image sizes for tablet screens */
   #images1 {
     top: 25%;
     left: 5%;
@@ -213,17 +213,23 @@ p{
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 500px) {
   /* Further adjust the image sizes for smaller screens */
   #images1 {
+    top: 16%;
+    left: 5%;
     max-width: 35%;
   }
 
   #images2 {
-    max-width: 40%;
+    top: 2%;
+    left: 30%;
+    max-width: 35%;
   }
 
   #images3 {
+    top: 18%;
+    left: 60%;
     max-width: 35%;
   }
 }
