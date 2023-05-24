@@ -349,20 +349,22 @@ p{
   color: #ffffff;
 }
 
-.arrow{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:10px;
-	right:15px;
-	background-color:#ACB1D6;
-	border-radius:50px;
+.arrow {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 10px;
+  right: 15px;
+  background-color: #ACB1D6;
+  border-radius: 50px;
+  z-index: 9999; /* Add a higher z-index value */
 }
 
-.my-arrow{
-	margin-top:29px;
+.my-arrow {
+  margin-top: 30px; /* Adjust the margin as desired */
   color: #ffffff;
 }
+
 
 .chat-modal {
   position: fixed;
