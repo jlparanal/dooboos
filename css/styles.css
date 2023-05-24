@@ -181,8 +181,8 @@ p{
 }
 
 #images4 {
-  max-width: 65%;
-  height: 60%;
+  max-width: 100%;
+  height: auto;
   border-radius: 50px;
   margin-bottom: 25%;
   margin-top: 25%;
