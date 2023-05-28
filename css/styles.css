@@ -219,18 +219,33 @@ p{
     top: 16%;
     left: 5%;
     max-width: 35%;
+    animation: floating 2s ease-in-out infinite;
   }
 
   #images2 {
     top: 2%;
     left: 30%;
     max-width: 35%;
+    animation: floating 2s ease-in-out infinite;
   }
 
   #images3 {
     top: 18%;
     left: 60%;
     max-width: 35%;
+    animation: floating 2s ease-in-out infinite;
+  }
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(0, 10px);
+  }
+  100% {
+    transform: translate(0, 0);
   }
 }
 
