@@ -213,6 +213,30 @@ p{
   }
 }
 
+@media (max-width: 1000px) {
+  /* Adjust the image sizes for tablet screens */
+  #images1 {
+    top: 30%;
+    left: 0;
+    max-width: 30%;
+    animation: floating 2s ease-in-out infinite;
+  }
+
+  #images2 {
+    top: 2%;
+    left: 30%;
+    max-width: 30%;
+    animation: floating 2s ease-in-out infinite;
+  }
+
+  #images3 {
+    top: 35%;
+    left: 70%;
+    max-width: 30%;
+    animation: floating 2s ease-in-out infinite;
+  }
+}
+
 @media (max-width: 500px) {
   /* Further adjust the image sizes for smaller screens */
   #images1 {
